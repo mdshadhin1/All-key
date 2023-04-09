@@ -261,8 +261,7 @@ def menu():
 			
 			
 				
-			        		elif rifat in ['8','08']:
-				exit('')
+			        		
 			else:
 				exit(' Option not found in menu...')
 		
