@@ -177,12 +177,9 @@ def menu():
 			os.system('clear')
 			print(logo)
 			print('[1] File Cloning menu')
-			print('[2] Pak Random Cloning menu')
-			print('[3] BD  Random Cloning menu')
+			
 			print('[4] Random Choice Pass ')
-			print('[5] Get any  number data')
-			print('[6] Get any CNIC number data')
-			print('[7] Follow me on Facebook')
+			
 			print('\x1b[1;91m[8] Exit main menu')
 			linex()
 			rifat=input(' Choose an option: ')
@@ -254,19 +251,17 @@ def menu():
 				linex()
 				input(' Press enter to back ')
 				os.system('python axi.py')
-			elif rifat in ['2','02']:
-				rifat1()
-			elif rifat in ['3','03']:
-				bd()
+			
+			
+			
+				
 			elif rifat in ['4','04']:
 				chos()
-			elif rifat in ['5','05']:
-				zong()
-			elif rifat in ['6','06']:
-				cinc()
-			elif rifat in ['7','07']:
-				os.system('xdg-open https://www.facebook.com/R1F4T.OFFICIAL.ACCOUNT');menu()
-			elif rifat in ['8','08']:
+			
+			
+			
+				
+			        		elif rifat in ['8','08']:
 				exit('')
 			else:
 				exit(' Option not found in menu...')
