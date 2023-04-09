@@ -180,7 +180,7 @@ def menu():
 			
 				
 				
-				linex()
+	
 				print(' Example : /sdcard/NOOB.txt')
 				linex()
 				file = input(' Put file path\033[1;37m: ')
