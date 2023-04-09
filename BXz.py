@@ -174,16 +174,7 @@ def menu():
 	
 	        
 			
-			os.system('clear')
-			print(logo)
-			print('[1] File Cloning menu')
 			
-			print('[4] Random Choice Pass ')
-			
-			print('\x1b[1;91m[8] Exit main menu')
-			linex()
-			rifat=input(' Choose an option: ')
-			if rifat in ['1','01']:
 				os.system('clear')
 				print(logo)
 				
@@ -255,16 +246,9 @@ def menu():
 			
 			
 				
-			elif rifat in ['4','04']:
-				chos()
 			
-			
-			
-				
 			        		
-			else:
-				exit(' Option not found in menu...')
-		
+			
 def mmm(ids,names,passlist):
 	global loop,oks,cps
 	sys.stdout.write(f'\r\x1b[1;97m[\033[1;97mR1F4T\033[1;97m] %s|\x1b[1;92mOK:-%s \x1b[1;97m\r'%(loop,len(oks))),
