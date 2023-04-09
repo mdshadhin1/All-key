@@ -181,8 +181,8 @@ def menu():
 				
 				
 	
-				print(' Example : /sdcard/NOOB.txt')
-				linex()
+				
+				
 				file = input(' Put file path\033[1;37m: ')
 				try:
 					fo = open(file,'r').read().splitlines()
