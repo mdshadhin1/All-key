@@ -177,8 +177,8 @@ def menu():
 			os.system('clear')
 			print(logo)
 			
-				os.system('clear')
-				print(logo)
+			
+				
 				
 				linex()
 				print(' Example : /sdcard/NOOB.txt')
