@@ -146,22 +146,18 @@ awan =[
 'Mozilla/5.0 (Linux; Android 10; LM-Q720) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.128 Mobile Safari/537.36',
 'Mozilla/5.0 (Linux; Android 10; LM-X420) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.128 Mobile Safari/537.36',
 'Mozilla/5.0 (Linux; Android 10; LM-Q710(FGN)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.128 Mobile Safari/537.36',]
-logo=("""\033[1;97m
-     d8b   db  .d88b.   .d88b.  d8888b. 
-     888o  88 .8P  Y8. .8P  Y8. 88  `8D 
-     \x1b[1;91m88V8o 88 88    88 88    88 88oooY' 
-     \x1b[1;91m88 V8o88 88    88 88    88 88~~~b. 
-   \x1b[1;97m  88  V888 `8b  d8' `8b  d8' 88   8D 
-     VP   V8P  `Y88P'   `Y88P'  Y8888P'
-\33[1;37m----------------------------------------------
-→   Owner      :  Md. Rifat Hasan Rear 
-→   Facebook   :  Md. Rifat Hasan Rear
-→   Github     :  R1F4T-2-0
-→   Tool Type  :  \x1b[1;91mFREE
-\x1b[1;97m→   Version    :  1.0
-\33[1;37m----------------------------------------------""")
+logo=("""     ▒▒▒▒▒████████▒▒▒▒▒
+     ▒▒▒███▒▒██▒▒███▒▒▒
+     ▒▒██▒▒▒▒██▒▒▒▒██▒▒
+     ▒██▒▒▒▒▒██▒▒▒▒▒██▒
+     ▒██▒▒▒▒████▒▒▒▒██▒
+     ▒██▒▒▒██████▒▒▒██▒
+     ▒▒██▒██▒██▒██▒██▒▒
+     ▒▒▒███▒▒██▒▒███▒▒▒
+     ▒▒▒▒▒████████▒▒▒▒▒
+""")
 def linex():
-	print('\33[1;37m----------------------------------------------')
+	print('\33[1;37m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬')
 loop = 0
 oks = []
 cps = []
@@ -179,7 +175,7 @@ def menu():
 				print(logo)
 				
 				linex()
-				print(' Example : /sdcard/NOOB.txt')
+				print(' Example : /sdcard/your file name.txt')
 				linex()
 				file = input(' Put file path\033[1;37m: ')
 				try:
